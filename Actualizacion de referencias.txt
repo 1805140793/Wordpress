@@ -1,0 +1,108 @@
+UPDATE `word_commentmeta` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_comments` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_links` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_postmeta` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_posts` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_term_relationships` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_term_taxonomy` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_termmeta` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_terms` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_usermeta` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_users` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wfblockediplog` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wfblocks7` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wfconfig` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wfcrawlers` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wffilechanges` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wffilemods` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wfhits` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wfhoover` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wfissues` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wfknownfilelist` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wflivetraffichuman` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wflocs` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wflogins` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wfls_2fa_secrets` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wfls_role_counts` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wfls_settings` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wfnotifications` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wfpendingissues` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wfreversecache` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wfsecurityevents` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wfsnipcache` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wfstatus` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wftrafficrates` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wfwaffailures` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
+UPDATE `word_wpfm_backup` 
+SET `meta_key` = REPLACE(`meta_key`,'wp_','word_') 
+WHERE `meta_key` LIKE 'wp_%';
